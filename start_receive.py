@@ -11,13 +11,13 @@ import paho.mqtt.client as mqtt
 import pandas as pd
 
 # MQTT Settings 
-MQTT_Broker = ""
+MQTT_Broker = "placeholder"
 MQTT_Port = 1883
 Keep_Alive_Interval = 45
-MQTT_Topic = ""
+MQTT_Topic = "placeholder"
 
-UserName = ""
-Password = ""
+UserName = "placeholder"
+Password = "placeholder"
 
 # file path to store data
 file_path = 'train.csv'
